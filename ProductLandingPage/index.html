@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="images/hamburger-31792_640.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <title>Landing Page Sample</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header id="header">
+            <nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="images/hamburger-31792_640.png" height="40"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#history">History</a>
+                        <a class="nav-link" href="#advertising">Advertising</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <img id="header-img" src="images/burger-chef.jpg" alt="burger chef">
+        </header>
+        <main>
+            <article class="row" id="history">
+                <div class="col-md-8" id="story">
+                    <h3>Burger Chef: Legacy</h3>
+                    <img <p>In 1954, Frank and Donald Thomas patented the flame broiler in their parent company General
+                    Equipment
+                    Corporation and started their own restaurant in Indianapolis, Indiana. In 1957, they opened
+                    their first
+                    Burger Chef.</p>
+
+                    <p>Burger Chef spread across the United States, following a strategy of opening outlets in smaller
+                        towns.[2] By 1972 its number of locations (1,200) was surpassed only by McDonald's (1,600).[3]
+                        They
+                        offered a double burger, called the Big Shef, and later the quarter-pound hamburger, Super Shef.
+                        Subsequently, they added the Works Bar, where customers added their own toppings to hamburgers.
+                    </p>
+
+                    <p>In 1968, General Foods Corporation purchased the chain and continued its rapid expansion. At the
+                        time of
+                        the purchase by General Foods, Burger Chef had 600 locations in 39 states.[4] By 1969
+                        international
+                        expansion was underway with General Foods building ten Burger Chef outlets in Australia. The
+                        expansion
+                        would end in 1975 with a $1.3 Million loss. It was stated that Australians disliked the limited
+                        burger
+                        based menu as compared to a Milk Bar. [5] The chain had two mascots: Burger Chef (voiced by Paul
+                        Winchell) and Jeff (the chef's juvenile sidekick). In the early 1970s, the chain introduced the
+                        Funburger and the Funmeal, with packaging that included stories about Burger Chef and Jeff's
+                        adventures
+                        and friends (including the magician Burgerini, vampire Count Fangburger, talking ape Burgerilla,
+                        and
+                        Cackleburger the witch), with riddles, puzzles, and small toys. When McDonald's introduced their
+                        Happy
+                        Meal in 1979, the chain sued, but ultimately lost.</p>
+
+                    <p>In 1982, General Foods sold Burger Chef to the Canadian company Imasco, which also owned
+                        Hardee's, for
+                        $44 million.[6] Imasco converted many locations to Hardee's restaurants and let franchises and
+                        locations
+                        near existing Hardee's locations convert to other brands. Remaining restaurants that did not
+                        convert to
+                        Hardee's or new names and branding simply closed.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/hq.jpg">
+                    <img src="images/story.jpg">
+                </div>
+
+            </article>
+
+            <div id="advertising" class="flex-container">
+                <div class="ad-box-1">
+                    <h3>Advertising</h3>
+                    <h4 class="text-center">Slogans</h4>
+                    <p class='slogan'>"Nowhere else but Burger Chef."</p>
+                    <p class='date-range'>1980 to 1996</p>
+                    <p class='slogan'>"We really give you the works."</p>
+                    <p class='date-range'>1976 to 1980</p>
+                    <p class='slogan'>"Open wide America, you never can forget. You get more to like at Burger Chef."
+                    </p>
+                    <p class='date-range'>1976 to 1980</p>
+                    <p class='slogan'>"You get more to like at Burger Chef."</p>
+                    <p class='date-range'>1971 to 1976</p>
+                    <p class='slogan'>"There's more to like at Burger Chef."</p>
+                    <p class='date-range'>1970 to 1971</p>
+                    <p class='slogan'>"Burger Chef goes all out to please your family."</p>
+                    <p class='date-range'>1970 to 1971</p>
+
+                </div>
+                <div class="ad-box-2">
+                    <video id="video" controls>
+                        <source src="videos/burger_chef.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div id="contact" class="row">
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+
+                    <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+                        <div class="form-group">
+                            <label id="name-label" for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter full name"
+                                aria-describedby="nameHelp">
+                            <small id="nameHelp" class="form-text text-muted">We'll never share your name with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label id="email-label" for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. fred@flintstones.com"
+                                aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comments">Message</label>
+                            <textarea class="form-control" id="comments" placeholder="Your message here"></textarea>
+                        </div>
+
+                        <input id="submit" type="submit" class="btn btn-primary"></input>
+                    </form>
+                </div>
+                <div class="col-md-8">
+                    <img src="images/concept bc 1958.jpg">
+                </div>
+            </div>
+
+
+
+        </main>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  background-color: turquoise;
+}
+
+#quote-box {
+  height: 300px;
+  width: 500px;
+  background-color: lightcyan;
+  margin: 5vw auto;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+}
+
+#quote {
+  width: 100%;
+  height: 70%;
+}
+
+#text {
+  height: 50%;
+  text-align: center;
+  padding: 30px 15px 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+#author {
+  text-align: center;
+  font-style: italic;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(139, 66, 115);
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+#tweet-holder {
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
